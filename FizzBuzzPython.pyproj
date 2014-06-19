@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>91e1443c-0f2c-4f75-927a-1508cbf21012</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FizzBuzzPython.py</StartupFile>
+    <StartupFile>FizzBuzzModule.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FizzBuzzPython.py" />
+    <Compile Include="FizzBuzzModule.py" />
+    <Compile Include="FizzBuzzTests.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
