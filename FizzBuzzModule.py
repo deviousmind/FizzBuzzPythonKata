@@ -2,7 +2,7 @@ class FizzBuzz:
 
     @staticmethod
     def get_answer(number):
-        if(number == 3):
+        if(number % 3 == 0):
             return 'fizz'
         elif(number == 5):
             return 'buzz'
