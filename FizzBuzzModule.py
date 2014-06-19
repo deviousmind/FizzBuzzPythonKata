@@ -4,7 +4,7 @@ class FizzBuzz:
     def get_answer(number):
         if(number % 3 == 0):
             return 'fizz'
-        elif(number == 5):
+        elif(number % 5 == 0):
             return 'buzz'
 
         return number.__str__()
