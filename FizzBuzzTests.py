@@ -12,6 +12,11 @@ class FizzBuzzTests(unittest.TestCase):
         expected = '2'
         self.assertEqual(result, expected)
 
+    def test_get_answer_3(self):
+        result = FizzBuzz.get_answer(3)
+        expected = 'fizz'
+        self.assertEqual(result, expected)
+
 
 if __name__ == '__main__':
     unittest.main()
